@@ -3,6 +3,6 @@
 	<!-- Launch Turtlesim Simulation -->
 	<node pkg="turtlesim" name="turtlesim" type="turtlesim_node" />
 	<!-- Custom nodes -->
-	<node pkg="hw1" name="publish_input" type="publish_input" />
-	<node pkg="hw1" name="publish_vel" type="publish_vel" output="screen" />
+	<node pkg="hw1" name="publish_input" type="publish_input.py" output="screen" />
+	<node pkg="hw1" name="publish_vel" type="publish_vel.py" />
 </launch>
