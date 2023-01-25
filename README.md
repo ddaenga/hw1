@@ -1,4 +1,4 @@
-$ git clone https://github.com/ChanJoon/turtlesim_circular_motion.git
+$ git clone https://github.com/ddaenga/hw1.git
 
 $ cd ~catkin_ws && catkin_make
 
